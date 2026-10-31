@@ -133,6 +133,12 @@ def build_rss(schedules, title_pref, user, allow_adult, feed_url=""):
 
         cover = (m.get("coverImage") or {}).get("large", "")
         img = f'<img src="{escape(cover)}" alt=""/><br/>' if cover else ""
+        mime = "image/png" if cover.lower().endswith(".png") else "image/jpeg"
+        media = (
+            f'\n      <enclosure url="{escape(cover)}" type="{mime}" length="0"/>'
+            f'\n      <media:thumbnail url="{escape(cover)}"/>'
+            f'\n      <media:content url="{escape(cover)}" medium="image" type="{mime}"/>'
+        ) if cover else ""
         desc = (
             f"{img}<b>{escape(name)}</b> episode {ep}"
             f"{f' of {total}' if total else ''} "
@@ -146,14 +152,14 @@ def build_rss(schedules, title_pref, user, allow_adult, feed_url=""):
       <link>{escape(m['siteUrl'])}</link>
       <guid isPermaLink="false">anilist-airing-{s['id']}</guid>
       <pubDate>{format_datetime(airs_dt)}</pubDate>
-      <description>{escape(desc)}</description>
+      <description>{escape(desc)}</description>{media}
     </item>"""
         )
 
     feed_title = "AniList Airing"
     link = feed_url or "https://anilist.co"
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{escape(feed_title)}</title>
     <link>{escape(link)}</link>
