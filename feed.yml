@@ -1,0 +1,32 @@
+name: Update feed
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours
+  workflow_dispatch:         # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate feed
+        env:
+          ANILIST_USER: ${{ secrets.ANILIST_USER }}
+        run: python anilist_rss.py --user "$ANILIST_USER" --days 7 --out feed.xml
+
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add feed.xml
+          git commit -m "Update feed" || exit 0
+          git push
