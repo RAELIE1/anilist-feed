@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>AniList Airing</title>
     <link>https://anilist.co</link>
     <description>New anime episodes as they air, from AniList</description>
-    <lastBuildDate>Sat, 31 Oct 2026 10:13:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:37:10 +0000</lastBuildDate>
     <ttl>30</ttl>
     <item>
       <title>Koori no Jouheki 2nd Season – Episode 5 aired</title>
@@ -12,6 +12,9 @@
       <guid isPermaLink="false">anilist-airing-421727</guid>
       <pubDate>Thu, 29 Oct 2026 14:56:00 +0000</pubDate>
       <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Koori no Jouheki 2nd Season&lt;/b&gt; episode 5 aired at 2026-10-29 14:56 UTC.</description>
+      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" type="image/png" length="0"/>
+      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png"/>
+      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" medium="image" type="image/png"/>
     </item>
     <item>
       <title>Seitokai ni mo Ana wa Aru! – Episode 4 aired</title>
@@ -19,6 +22,9 @@
       <guid isPermaLink="false">anilist-airing-418847</guid>
       <pubDate>Sat, 24 Oct 2026 15:30:00 +0000</pubDate>
       <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Seitokai ni mo Ana wa Aru!&lt;/b&gt; episode 4 of 12 aired at 2026-10-24 15:30 UTC.</description>
+      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" type="image/png" length="0"/>
+      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png"/>
+      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
