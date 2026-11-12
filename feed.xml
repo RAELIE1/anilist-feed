@@ -4,8 +4,18 @@
     <title>AniList Airing</title>
     <link>https://anilist.co</link>
     <description>New anime episodes as they air, from AniList</description>
-    <lastBuildDate>Thu, 12 Nov 2026 06:02:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:29:54 +0000</lastBuildDate>
     <ttl>30</ttl>
+    <item>
+      <title>Koori no Jouheki 2nd Season – Episode 7 aired</title>
+      <link>https://anilist.co/anime/213805</link>
+      <guid isPermaLink="false">anilist-airing-421729</guid>
+      <pubDate>Thu, 12 Nov 2026 14:56:00 +0000</pubDate>
+      <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Koori no Jouheki 2nd Season&lt;/b&gt; episode 7 aired at 2026-11-12 14:56 UTC.</description>
+      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" type="image/png" length="0"/>
+      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png"/>
+      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Seitokai ni mo Ana wa Aru! – Episode 6 aired</title>
       <link>https://anilist.co/anime/191656</link>
@@ -15,16 +25,6 @@
       <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" type="image/png" length="0"/>
       <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png"/>
       <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Koori no Jouheki 2nd Season – Episode 6 aired</title>
-      <link>https://anilist.co/anime/213805</link>
-      <guid isPermaLink="false">anilist-airing-421728</guid>
-      <pubDate>Thu, 05 Nov 2026 14:56:00 +0000</pubDate>
-      <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Koori no Jouheki 2nd Season&lt;/b&gt; episode 6 aired at 2026-11-05 14:56 UTC.</description>
-      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" type="image/png" length="0"/>
-      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png"/>
-      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
