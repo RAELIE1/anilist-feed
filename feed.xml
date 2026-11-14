@@ -4,8 +4,18 @@
     <title>AniList Airing</title>
     <link>https://anilist.co</link>
     <description>New anime episodes as they air, from AniList</description>
-    <lastBuildDate>Sat, 14 Nov 2026 08:35:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 16:19:46 +0000</lastBuildDate>
     <ttl>30</ttl>
+    <item>
+      <title>Seitokai ni mo Ana wa Aru! – Episode 7 aired</title>
+      <link>https://anilist.co/anime/191656</link>
+      <guid isPermaLink="false">anilist-airing-418850</guid>
+      <pubDate>Sat, 14 Nov 2026 15:30:00 +0000</pubDate>
+      <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Seitokai ni mo Ana wa Aru!&lt;/b&gt; episode 7 of 12 aired at 2026-11-14 15:30 UTC.</description>
+      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" type="image/png" length="0"/>
+      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png"/>
+      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Koori no Jouheki 2nd Season – Episode 7 aired</title>
       <link>https://anilist.co/anime/213805</link>
@@ -15,16 +25,6 @@
       <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" type="image/png" length="0"/>
       <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png"/>
       <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx213805-Nokui3uWlIlw.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Seitokai ni mo Ana wa Aru! – Episode 6 aired</title>
-      <link>https://anilist.co/anime/191656</link>
-      <guid isPermaLink="false">anilist-airing-418849</guid>
-      <pubDate>Sat, 07 Nov 2026 15:30:00 +0000</pubDate>
-      <description>&lt;img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" alt=""/&gt;&lt;br/&gt;&lt;b&gt;Seitokai ni mo Ana wa Aru!&lt;/b&gt; episode 6 of 12 aired at 2026-11-07 15:30 UTC.</description>
-      <enclosure url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" type="image/png" length="0"/>
-      <media:thumbnail url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png"/>
-      <media:content url="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx191656-xFHtxM8SUTdU.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
